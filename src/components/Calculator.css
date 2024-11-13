@@ -1,0 +1,48 @@
+.main, .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    border-radius: 20px;
+    background-color: blueviolet;
+    height: 375px;
+}
+
+input, select {
+    width: 150px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+    background-color: pink;
+}
+
+input {
+    border: 3px solid black;
+    font-size: 20px;
+}
+
+select {
+    border: 1px solid gray;
+}
+
+button {
+    background-color: rgb(229, 73, 99);
+    height: 45px;
+    width: 150px;
+    border: none;
+    border-radius: 5px 30px;
+    margin-top: 25px;
+}
+
+button:hover {
+    border: 1px solid rgb(28, 132, 200);
+}
+
+p {
+    font-size: 45px;
+}
+
